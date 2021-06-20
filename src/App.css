@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  
+  .projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    height: 100vh;
+    background: @0c0c0c;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    position: relative;
+    margin-top: -80px;    
+    color: #fff;
+    background-image: url('./assests/images/img-2.jpg');
+    background-position: center;
+    font-size: 100px;
+  }
+
+  
