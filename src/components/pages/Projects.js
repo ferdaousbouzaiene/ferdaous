@@ -10,7 +10,13 @@ import mp4 from "./videos/v.mp4";
 import musicpic from "./images/music.jpg";
 import news from "./images/fakenews.jpg";
 import moviespic from "./images/movies.jpg";
-import churn from "./images/customerchurn.jpg"
+import churn from "./images/customerchurn.jpg";
+import toxiccomment from "./images/toxiccomment.png";
+import emotiondetection from"./images/emotiondetection.png";
+
+import churnUC from "./images/customerchurnUC.png";
+import toxiccommentUC from "./images/toxiccommentUC.png";
+import emotiondetectionUC from"./images/emotiondetectionUC.png";
 
 import Footer from '../../components/Footer';
 
@@ -50,40 +56,37 @@ function Projects () {
                         src={moviespic}
                         text='Analyzing IMDb Movie Reviews'
                         label='Sentiment Analysis'
+                        path='/project3'
                          
                         />
                         <CardItem
-                        src={churn}
+                        src={churnUC}
                         text='Customer Churn Prediction'
-                        label='Machine Learning'
+                        label='Classification'
+                         
+                        />
+                        
+                    </ul>
+
+
+                    <ul className='cards__items' >
+                        <CardItem
+                        src={toxiccommentUC}
+                        text='Toxic Comments Classification'
+                        label='NLP'
+                         
+                         
+                        />
+                        <CardItem
+                        src={emotiondetectionUC}
+                        text='Facial Emotion Recognition '
+                        label='Computer Vision'
                          
                         />
                         
                     </ul>
                     </div>
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
+            </div>
         </section>
         
 );
