@@ -22,8 +22,8 @@ function HeroSection() {
             <h1>Hi, I'm Ferdaous
             </h1>
        
-            <p class="center" >  I'm a Tunisian-based Junior Data Scientist.</p>  
-            <p class="center">  My portfolio reflects what I've learned and accomplished as an ICT engineer and data scientist.  </p>
+            <p class="center" >  I'm a Tunisian-born berlin-based Engineer.</p>  
+            <p class="center">  My portfolio reflects what I've learned and accomplished as a ML engineer and data scientist.  </p>
 
             <div className='hero-btns'>
                 <Button 

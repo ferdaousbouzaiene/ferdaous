@@ -24,12 +24,18 @@ function AboutMe() {
                             </div>
                             <div className="nine columns main-col">
                                 <h2>About Me</h2>
-                                <p> I have an engineering degree in ICT with a Data Science and Management focus from the Higher School of Communication of Tunis. I attribute my success as a Data Scientist in large part to this extensive and in-depth education.</p>
-                                <p>I have had a variety of internships, in both industry and research,  where I got to learn the basics of designing and coding machine learning algorithms.
-                                I learned to write clean and maintainable code as well as to adapt quickly to the research environment and the new technologies. </p>
                                 
-                                <p>
-                                You can take a look at some of my projects in the Projects section. I will link my work to their GitHub repositories. 
+<p>Natural Language Processing (NLP) is my area of expertise as a skilled Machine Learning Engineer with over three years of experience in startups. </p>
+
+<p>I've created and implemented a number of NLP solutions, such as summarisation and question answering tools, to improve user experiences. </p>
+
+<p>I'm committed to keeping on the cutting edge of this quickly developing discipline, and my knowledge spans the whole NLP pipeline. </p>
+
+<p>I'm a cooperative team player that excels at explaining technical ideas to stakeholders who aren't experts in them. </p>
+
+<p>I'm eager to keep making a difference in cutting-edge AI solutions.</p>
+
+                            <p>    You can take a look at some of my projects in the Projects section. I will link my work to their GitHub repositories. 
                                 </p>
                                 
                                 <p>I'm an analytically minded person with excellent communication, dedicated, ambitious, and highly open-minded. </p>
@@ -44,7 +50,7 @@ function AboutMe() {
                                         <p className="address">
                                                 <br /><span>
                                                     
-                                                    <a href="tel:+216-9009-7831">  +216-9009-7831 </a>
+                                                    {/* <a href="tel:+216-9009-7831">  +216-9009-7831 </a> */}
 
                                                    
 

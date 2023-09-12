@@ -14,39 +14,41 @@ function Resume () {
             <VideoBg  >
                      <VideoBg.Source src={mp4} type="video/mp4" />
                 </VideoBg>;
-                <div className="row education">
-                    <div className="three columns header-col">
-                    <h1><span>Education</span></h1>
-                    </div>
-                    <div className="nine columns main-col">
-                        <div className="row item">
-                            <div className="twelve columns">    
-                            <div >
-                                <p className="infotitle" > Higher School of Communication of Tunis </p>
-                                <p className="info-title"> Masters of Engineering in ICT, Data Science Specialization
-                                <br></br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;
-                                <span>&bull;</span><em className="date"> &nbsp;September 2017 &ndash; January 2021  </em></p>
-                                <p className="info"> Focus Area: Machine Learning, Deep Learning, Image processing, Data structures.</p>
-                                <p className='info'> Selected from among 90 (from a total of 500+) participants in a project development competition.
-                                </p>
-                            </div>
-                            <div >
-                                <p className="infotitle2" > Faculty of Science of Monastir </p>
-                                <p className="info-title"> Diploma of the preparatory cycle for engineering studies  (rank: 98/700)  
-                                <br></br>      &nbsp;&nbsp;&nbsp;&nbsp;
-                                <span>&bull;</span><em className="date" > &nbsp;September 2015 &ndash; July 2017 </em></p>
-                                <p className='info'> Focus Area: Calculus and Linear Algebra.</p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1><span>Work Experience</span></h1>
                     </div>
                     <div className="nine columns main-col">
+
+
+                    <div >
+                                                                        <p className="infotitle2">Machine Learning Engineer</p>
+                                                                        <p className="info"> Tucan.ai GmbH - Meeting Assistant Software
+                                                                        
+                                                                        <br></br>
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                                                        <span>&bull;</span> <em className="date"> August 2021 &ndash; Present</em>
+                                                                        
+                                                                        </p>
+                                                                        <p className="info">
+                                                                            <ul >
+                                                                                <li className="info">
+                                                                                Developed and deployed a translation model from German to English and vice versa thus, enabling ecient and accurate language translation for diverse applications needed to create meeting report such as summarisation and question answering. We used TensorFlow as main framework and Transformer models through HuggingFace.                             </li >
+                                                                                <li className="info">
+                                                                                Implemented a meeting summarization model with NLP techniques using data from meeting transcripts, extracting relevant information and generating concise summaries, improving productivity and facilitating decision-making processes and achieving a 90% accuracy rate.
+                                                                                </li>
+                                                                                <li className="info"> Worked on a question detection model that detects questions raised during meetings along with a question-answering model tailored for meeting data to answer raised questions with 70% accuracy. </li>
+                                                                                <li className="info"> Created an automated pipeline tool using MLops, Nodered, Python, Sql and Rabbitmq that connects machine learning models and establishes a streamlined flow for text processing across downstream tasks including translation to summarisation to translation to original language </li>
+                                                                                
+
+
+
+                                                                            </ul>
+                                                                        </p>
+                                                                    </div>  <br></br>
+
+
                         <div >
                             <p className="infotitle">Undergraduate Research Assistant</p>
                             <p className="info">ICube Laboratory, University of Strasbourg
@@ -88,9 +90,47 @@ function Resume () {
                                     </li>
                                 </ul>
                             </p>
+                        </div><br></br>
+
+
+                                                                   
+
+
+                    </div>
+                </div>
+
+
+
+                <div className="row education">
+                    <div className="three columns header-col">
+                    <h1><span>Education</span></h1>
+                    </div>
+                    <div className="nine columns main-col">
+                        <div className="row item">
+                            <div className="twelve columns">    
+                            <div >
+                                <p className="infotitle" > Higher School of Communication of Tunis </p>
+                                <p className="info-title"> Masters of Engineering in ICT, Data Science Specialization
+                                <br></br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <span>&bull;</span><em className="date"> &nbsp;September 2017 &ndash; January 2021  </em></p>
+                                <p className="info"> Focus Area: Machine Learning, Deep Learning, Image processing, Data structures.</p>
+                                <p className='info'> Selected from among 90 (from a total of 500+) participants in a project development competition.
+                                </p>
+                            </div>
+                            <div >
+                                <p className="infotitle2" > Faculty of Science of Monastir </p>
+                                <p className="info-title"> Diploma of the preparatory cycle for engineering studies  (rank: 98/700)  
+                                <br></br>      &nbsp;&nbsp;&nbsp;&nbsp;
+                                <span>&bull;</span><em className="date" > &nbsp;September 2015 &ndash; July 2017 </em></p>
+                                <p className='info'> Focus Area: Calculus and Linear Algebra.</p>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                
                 <div className="row skills">
                     <div className="three columns header-col">
                     <h1><span>Skills</span></h1>
@@ -110,6 +150,12 @@ function Resume () {
                             <li> Keras</li><li> Flask</li>
                             <li>Git/Github</li>
                             <li>Linux</li>
+
+                            <li>HuggingFace</li>
+                            <li>Docker</li>
+                            <li>AWS</li>
+                            <li>Kubernetes</li>
+                            
                             
                             </ul>
                             </div>
